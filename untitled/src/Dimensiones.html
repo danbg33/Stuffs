@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dimensiones Jquery</title>
+    <script src = "http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+
+        $(document).on('ready', function(){
+
+        /*obtiene el tamaño del ancho de la imagen del header
+        $('header img').width(); regresa un entero
+        $('header img').css('width') regresa pixeles
+        */
+
+            //cambiar el tamaño de la imagen del header
+            //console.log($('header img').width(100))
+
+           $('#e1').height(100);// cambiar el tamaño de la altura
+
+           //padding
+
+           var pos = $("#e2 p").position();//obtener posición del cambo te texto
+           var pos2 = $("#e2 p").offset();//posicion con el padding
+
+           console.log("Posición left:" + pos.left + "Posicion Top: "+ pos.top)
+           console.log("Posición left:" + pos2.left + "Posicion Top: "+ pos2.top)
+
+        });
+    </script>
+
+    <style>
+        body,html
+        {
+
+            background: #0001;
+            margin:0;
+            padding:0;
+        }
+
+        header
+        {
+            display: block;
+            margin:0 auto;
+            with: 365px;
+        }
+
+        #e1,#e2
+        {
+            background: #0080FF;
+            display: block;
+            height: 100px;
+            margin: 20px auto;
+            width: 400px;
+        }
+
+        #e1
+        {
+            background: #FF0040;
+            height:150px;
+        }
+
+        #e2
+        {
+            padding:15px;
+            border-radius: 60px 0 60px 0; //centrar
+        }
+
+        p
+        {
+            margin-left:10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="http://orig12.deviantart.net/fba4/f/2012/300/8/f/mega_man_battle_network___aqua_cross_wallpaper_by_dashinghero-d5j62x7.png"
+             alt ="CF"/>
+    </header>
+
+    <div id="e1">
+
+    </div>
+
+    <div id="e2">
+        <p>Hola compadres!</p>
+
+    </div>
+
+
+</body>
+</html>

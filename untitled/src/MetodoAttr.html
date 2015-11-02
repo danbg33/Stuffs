@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src = "http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <title>Metodo Attr</title>
+
+    <script>
+        $(document).on('ready', function(){
+
+            /*$("#prueba").attr("class","cambieLaClase");//(Nombre del atributo a cambiar, Valor que le vamos a dar)
+
+
+            //remover clase $("#prueba").removeAttr("class");
+
+            /*$("#prueba").attr("class",function()
+            { var cadena = "Hola_Mundo"
+                return cadena;
+            }
+
+            );
+            var clase= $("#prueba").attr("class");
+            alert(clase);
+            */
+
+            $("a").on("click", function(e){        // responde al evento del click y recibe como parametro el el evento (e)
+                e.preventDefault();               //mensaje de confirmacion para avisar que se cambiara de sitio
+                var link = $(this).attr("href"); //guardar la dirección del link en una variable
+                alert("Usted está saliendo de la pagina chirindonga");
+                location.href = link;           // redirección de pagina
+
+
+            });
+
+        });
+    </script>
+</head>
+<body>
+    /*div id="prueba" class="pruebaClass"/div
+    <a href="http://cursos.iteso.mx">Cursos Iteso</a>
+    /*form input type="" input type="submit"><//ingresar texto en un buscador */
+
+
+
+
+</body>
+</html>
