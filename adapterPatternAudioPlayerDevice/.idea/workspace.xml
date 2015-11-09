@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edcc86a0-33c0-4126-b78b-daa08926814d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/AdapterPatternDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/AdvancedMediaPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/AudioPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/AudioPlayerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/MediaAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/MediaAdapterTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/Mp4Player.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/Mp4PlayerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/VlcPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/VlcPlayerTest.java" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern -ChocolateBoiler\src\main\java\mx\iteso\singleton\ChocolateBoiler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern -ChocolateBoiler\src\main\java\mx\iteso\singleton\tables\ChocolateBar.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern -ChocolateBoiler\src\test\java\mx\iteso\tables\ChocolateBarTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\libraries\Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\libraries\junit_junit_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\libraries\org_jmockit_jmockit_coverage_1_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\libraries\org_mockito_mockito_all_1_10_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\lib\jmockit-coverage-1.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\lib\junit-3.8.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\lib\mockito-all-1.10.19.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\singletonPattern.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\main\java\mx\iteso\singleton\Dish.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\main\java\mx\iteso\singleton\Drink.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\main\java\mx\iteso\singleton\TableOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\main\java\mx\iteso\singleton\TakeOrders.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\main\java\mx\iteso\singleton\tables\Table1.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\main\java\mx\iteso\singleton\tables\Table2.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\main\java\mx\iteso\singleton\tables\Table3.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\main\java\mx\iteso\singleton\tables\Table4.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\test\java\mx\iteso\DishTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\test\java\mx\iteso\DrinkTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\test\java\mx\iteso\tables\Table1Test.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\test\java\mx\iteso\tables\Table2Test.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\test\java\mx\iteso\tables\Table3Test.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\src\test\java\mx\iteso\tables\Table4Test.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\classes\mx\iteso\singleton\Dish.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\classes\mx\iteso\singleton\Drink.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\classes\mx\iteso\singleton\TableOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\classes\mx\iteso\singleton\TakeOrders.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\classes\mx\iteso\singleton\tables\Table1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\classes\mx\iteso\singleton\tables\Table2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\classes\mx\iteso\singleton\tables\Table3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\classes\mx\iteso\singleton\tables\Table4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\test-classes\mx\iteso\DishTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\test-classes\mx\iteso\DrinkTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\test-classes\mx\iteso\tables\Table1Test.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\test-classes\mx\iteso\tables\Table2Test.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\test-classes\mx\iteso\tables\Table3Test.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\DaNN\Documents\ITESO\7mo Semestre\Diseño Software\singletonPattern\target\test-classes\mx\iteso\tables\Table4Test.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../decoratorPattern/src/main/java/mx/iteso/decorator/condiments/Cebolla.java" afterPath="$PROJECT_DIR$/../decoratorPattern/src/main/java/mx/iteso/decorator/condiments/Cebolla.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../singletonPatternChocolateBoiler/src/test/java/mx/iteso/tables/ChocolateBarTest.java" afterPath="$PROJECT_DIR$/../singletonPatternChocolateBoiler/src/test/java/mx/iteso/tables/ChocolateBarTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../decoratorPattern/src/main/java/mx/iteso/decorator/CondimentsDecorator.java" afterPath="$PROJECT_DIR$/../decoratorPattern/src/main/java/mx/iteso/decorator/CondimentsDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../observerPattern/src/main/java/mx/iteso/observer/impl/MobileApp.java" afterPath="$PROJECT_DIR$/../observerPattern/src/main/java/mx/iteso/observer/impl/MobileApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../observerPattern/src/main/java/mx/iteso/observer/Scorer.java" afterPath="$PROJECT_DIR$/../observerPattern/src/main/java/mx/iteso/observer/Scorer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../singletonPatternChocolateBoiler/singletonPattern.iml" afterPath="$PROJECT_DIR$/../singletonPatternChocolateBoiler/singletonPattern.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../decoratorPattern/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../decoratorPattern/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../examen/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../examen/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../factoryMethodPattern/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../factoryMethodPattern/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../singletonPatternChocolateBoiler/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../singletonPatternChocolateBoiler/.idea/workspace.xml" />
+    </list>
+    <ignored path="adapterPattern.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/adapterPattern$TemperatureClassReporterTest.coverage" NAME="TemperatureClassReporterTest Coverage Results" MODIFIED="1446703648659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mx.iteso.enemyTest.temperature.adapters.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/adapterPattern$EnemyGiantRobotTest.coverage" NAME="EnemyGiantRobotTest Coverage Results" MODIFIED="1446703680115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mx.iteso.enemyTest.enemy.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/adapterPattern$EnemyTankTest.coverage" NAME="EnemyTankTest Coverage Results" MODIFIED="1446703671785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mx.iteso.enemyTest.enemy.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/adapterPattern$EnemyRobotAdapterTest.coverage" NAME="EnemyRobotAdapterTest Coverage Results" MODIFIED="1446703664413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mx.iteso.enemyTest.enemy.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/adapterPattern$CelsiusReporterTest.coverage" NAME="CelsiusReporterTest Coverage Results" MODIFIED="1446703588893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mx.iteso.enemyTest.temperature.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/adapterPattern$AudioPlayerTest.coverage" NAME="AudioPlayerTest Coverage Results" MODIFIED="1447080284151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mx.iteso.enemyTest.enemy.audioplay.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/adapterPattern$MediaAdapterTest.coverage" NAME="MediaAdapterTest Coverage Results" MODIFIED="1447080322589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mx.iteso.enemyTest.enemy.audioplay.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/adapterPattern$TemperatureObjectReporterTest.coverage" NAME="TemperatureObjectReporterTest Coverage Results" MODIFIED="1446703700304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mx.iteso.enemyTest.temperature.adapters.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="adapterPattern" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Mp4PlayerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/Mp4PlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VlcPlayerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/VlcPlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioPlayerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/AudioPlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.171831">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/AudioPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mp4Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/Mp4Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VlcPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/VlcPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MediaAdapterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/MediaAdapterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/CelciusReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/adapters/TemperatureClassReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/AdapterDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/TemperatureInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/adapters/TemperatureObjectReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/CelsiusReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/CelsiusReporterI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/TemperatureReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/CelsiusReporterInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/EnemyAttacker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/impl/CelsiusReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/TemperatureAdapterDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/EnemyTank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/TestEnemyAttackers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/temperature/adapters/TemperatureClassReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/temperature/adapters/TemperatureObjectReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/temperature/CelsiusReporter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/temperature/TemperatureAdapterDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/temperature/TemperatureInfo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/EnemyGiantRobotTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/impl/EnemyRobotAdalpter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/impl/EnemyRobotAdalpterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/EnemyTankTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/EnemyRobotAdalpterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/impl/EnemyGiantRobotTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/EnemyRobot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/EnemyAttacker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/impl/EnemyGiantRobot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/impl/EnemyTank.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/impl/EnemyTankTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/EnemyRobotAdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/temperature/adapters/TemperatureClassReporterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/EnemyRobotAdapter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/temperature/CelsiusReporterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/temperature/adapters/TemperatureObjectReporterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/MediaPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/AdapterPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/MediaAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/AdvancedMediaPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/MediaPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/VlcPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/Mp4Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/AudioPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/MediaAdapter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/MediaAdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/Mp4PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/VlcPlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/AudioPlayerTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
+    <option name="width" value="1323" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapterPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapterPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapterPatternAudioPlayerDevice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapterPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapterPatternAudioPlayerDevice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audioplay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapterPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapterPatternAudioPlayerDevice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audioplayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapterPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapterPatternAudioPlayerDevice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audioplayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/STUFFS2/ProyectoDS/ProyectoDS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2954023" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mx.iteso.adapter.enemy.impl" />
+      <recent name="mx.iteso.adapter.enemy" />
+      <recent name="mx.iteso.adapter.temperature" />
+      <recent name="mx.iteso.adapter.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AudioPlayerTest.playTest">
+    <configuration default="false" name="VlcPlayerTest.playVlcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mx.iteso.enemyTest.enemy.audioplay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="adapterPattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mx.iteso.enemyTest.enemy.audioplay" />
+      <option name="MAIN_CLASS_NAME" value="mx.iteso.enemyTest.enemy.audioplay.VlcPlayerTest" />
+      <option name="METHOD_NAME" value="playVlcTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="AudioPlayerTest.playTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mx.iteso.enemyTest.enemy.audioplay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="adapterPattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mx.iteso.enemyTest.enemy.audioplay" />
+      <option name="MAIN_CLASS_NAME" value="mx.iteso.enemyTest.enemy.audioplay.AudioPlayerTest" />
+      <option name="METHOD_NAME" value="playTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="VlcPlayerTest.playMp4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mx.iteso.enemyTest.enemy.audioplay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="adapterPattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mx.iteso.enemyTest.enemy.audioplay" />
+      <option name="MAIN_CLASS_NAME" value="mx.iteso.enemyTest.enemy.audioplay.VlcPlayerTest" />
+      <option name="METHOD_NAME" value="playMp4Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Mp4PlayerTest.playMp4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mx.iteso.enemyTest.enemy.audioplay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="adapterPattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mx.iteso.enemyTest.enemy.audioplay" />
+      <option name="MAIN_CLASS_NAME" value="mx.iteso.enemyTest.enemy.audioplay.Mp4PlayerTest" />
+      <option name="METHOD_NAME" value="playMp4Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MediaAdapterTest.playTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="mx.iteso.enemyTest.enemy.audioplay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="adapterPattern" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mx.iteso.enemyTest.enemy.audioplay" />
+      <option name="MAIN_CLASS_NAME" value="mx.iteso.enemyTest.enemy.audioplay.MediaAdapterTest" />
+      <option name="METHOD_NAME" value="playTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.VlcPlayerTest.playVlcTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AudioPlayerTest.playTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.VlcPlayerTest.playMp4Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Mp4PlayerTest.playMp4Test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MediaAdapterTest.playTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AudioPlayerTest.playTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MediaAdapterTest.playTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Mp4PlayerTest.playMp4Test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VlcPlayerTest.playMp4Test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.VlcPlayerTest.playVlcTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edcc86a0-33c0-4126-b78b-daa08926814d" name="Default" comment="" />
+      <created>1446444636335</created>
+      <option name="number" value="Default" />
+      <updated>1446444636335</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="0" width="1323" height="728" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807016" sideWeight="0.48772764" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32807016" sideWeight="0.51227236" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32807016" sideWeight="0.48772764" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32858273" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25732383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/AdvancedMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/AdapterPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/MediaAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/Mp4Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/VlcPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/adapter/enemy/audioplayer/impl/AudioPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/VlcPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/Mp4PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/MediaAdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mx/iteso/enemyTest/enemy/audioplay/AudioPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.171831">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jre1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>adapterPattern</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2954023" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.jmockit:jmockit-coverage:1.19</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2954023" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
